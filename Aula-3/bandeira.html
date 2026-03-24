@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+        .bandeira {
+            border: solid 1px black;
+            margin: 20px;
+            width: 400px;
+            height: 300px;
+        }
+        #italia div {
+            position: relative;
+            float: left;
+        }
+        /* #italia {
+            display: flex;
+        }*/
+        .vermelho {
+            background-color: red;
+            position: relative;
+            width: 400px;
+            height: 100px;
+        }
+        .branco {
+            background-color: white;
+            position: relative;
+            width: 400px;
+            height: 100px;
+        }
+        .azul {
+            background-color: blue;
+            position: relative;
+            width: 400px;
+            height: 100px;
+        }
+        .preto {
+            background-color: black;
+            position: relative;
+            width: 400px;
+            height: 100px;
+        }
+        .amarelo {
+            background-color: yellow;
+            position: relative;
+            width: 400px;
+            height: 100px;
+        }
+        .verde-italia {
+            background-color: green;
+            position: relative;
+            width: 33.33%;
+            height: 300px;
+        }
+        .branco-italia {
+            background-color: white;
+            position: relative;
+            width: 33.33%;
+            height: 300px;
+        }
+        .vermelho-italia {
+            background-color: red;
+            position: relative;
+            width: 33.33%;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="bandeira">
+        <div class="vermelho"></div>
+        <div class="branco"></div>
+        <div class="azul"></div>
+    </div>
+    <div class="bandeira">
+        <div class="preto"></div>
+        <div class="vermelho"></div>
+        <div class="amarelo"></div>
+    </div>
+    <div class="bandeira" id="italia">
+        <div class="verde-italia"></div>
+        <div class="branco-italia"></div>
+        <div class="vermelho-italia"></div>
+    </div>
+</body>
+</html>
