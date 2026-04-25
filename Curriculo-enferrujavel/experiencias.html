@@ -3,9 +3,257 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>currículo - experiência</title>
+    <title>Currículo - Lionis Prime</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        .banner {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .colunas {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .barra-lateral {
+            flex: 1;
+            min-width: 250px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+
+        .conteudo {
+            flex: 2;
+            min-width: 300px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .titulo {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        .contact-item {
+            margin-bottom: 10px;
+        }
+
+        .abilidade-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .abilidade-list li {
+            background-color: #e0e0e0;
+            margin-bottom: 5px;
+            padding: 10px;
+            border-radius: 3px;
+        }
+
+        .experiencia-item {
+            background-color: #f9f9f9;
+            border-left: 4px solid #333;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .experiencia-item h3 {
+            margin-top: 0;
+        }
+
+        .compania {
+            font-style: italic;
+            color: #555;
+        }
+        
+        .periodo {
+            font-size: 0.9em;
+            color: #777;
+            margin-bottom: 10px;
+        }
+        
+        .rodape {
+            text-align: center;
+            margin-top: 20px;
+            border-color: #555;
+            color: #555;
+        }
+
+        /* Estilo para o container do vídeo */
+        .video-container {
+            margin-bottom: 25px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+            display: block;
+        }
+
+        .video-title {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .video-container iframe {
+                height: 220px;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class="banner">
+        <h1>Lionis Prime</h1>
+        <p>Autobot da Resistência | Especialista em Combate e Tecnologia</p>
+    </div>
+
+    <div class="colunas">
+        <div class="barra-lateral">
+            <h2 class="titulo"> Dados de Combate</h2>
+            <div class="contact-item"> Designação: Lionis Prime </div>
+            <div class="contact-item"> Alt mode: Peugeot 206</div>
+            <div class="contact-item"> Cor: Prata</div>
+            <div class="contact-item"> Base: Brasil - São Paulo</div>
+            <div class="contact-item"> Código: AUTOBOT-206-BR</div>
+
+            <h2 class="titulo"> Habilidades de Combate</h2>
+            <ul class="abilidade-list">
+                <li>Transformação em 2.5 segundos</li>
+                <li>Sistema de Mísseis Teleguiados</li>
+                <li>Escudo de Energia</li>
+                <li>Velocidade Máx: 220 km/h</li>
+                <li>Comunicação via Satélite</li>
+                <li>Sistema de Camuflagem</li>
+                <li>Sensor de Decepticons</li>
+                <li>Resistência a Impactos</li>
+            </ul>
+
+            <h2 class="titulo">Sistema de Poder</h2>
+            <ul class="abilidade-list">
+                <li>Força: 85%</li>
+                <li>Velocidade: 92%</li>
+                <li>Defesa: 78%</li>
+                <li>Inteligência: 206%</li>
+            </ul>
+        </div>
+
+        <div class="conteudo">
+            <h2 class="video-title">Demonstração em Ação</h2>
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/jxnZYYQB590" 
+                    title="YouTube video player - Lionis Prime em ação"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <h2 class="titulo"> Histórico de Combate</h2>
+
+            <div class="experiencia-item">
+                <h3>Fundador e Comandante - Lionet Autobots</h3>
+                <div class="compania">Lionet Tecnologia Avançada (Divisão Secreta Autobot)</div>
+                <div class="periodo">Período: 2015 - 2025</div>
+                <ul>
+                    <li>Empresário de uma empresa de tecnologia avançada voltada para aplicativos de comunicação e redes sociais, com foco em inovação e conexão entre donos de Peugeots (e autobots disfarçados).</li>
+                    <li>Responsável por liderar a empresa, desenvolver estratégias de mercado e garantir a satisfação dos clientes humanos e robôs.</li>
+                    <li>Sob sua liderança, a Lionet cresceu significativamente, tornando-se uma referência no setor de tecnologia automotiva.</li>
+                    <li>MISSÃO SECRETA: Criar uma rede de comunicação criptografada entre Autobots disfarçados de Peugeot 206.</li>
+                    <li>Estabeleceu parceria com a Resistência Humana para combater ameaças Decepticons na região metropolitana.</li>
+                    <li>Desenvolveu o "Sistema Lionet Shield" - proteção anti-rastreamento para veículos aliados.</li>
+                </ul>
+            </div>
+
+            <div class="experiencia-item">
+                <h3>Assistente de Operações Estratégicas</h3>
+                <div class="compania">Força Autobot - Divisão Sul</div>
+                <div class="periodo">Período: 2010 - 2015</div>
+                <ul>
+                    <li>Suporte em planejamento de operações secretas contra Decepticons na América do Sul.</li>
+                    <li>Coleta e análise de informações sobre movimentações inimigas na região.</li>
+                    <li>Trabalho em equipe para execução de missões de resgate e reconhecimento.</li>
+                    <li>Participou da "Operação Escudo Urbano" - proteção civil contra ataques em 2013.</li>
+                    <li>Instalou 12 torres de comunicação espalhadas pela cidade para rede Autobot.</li>
+                </ul>
+            </div>
+
+            <div class="experiencia-item">
+                <h3>Agente de Campo - Força Tática de Elite</h3>
+                <div class="compania">Aliança Autobot-Humana</div>
+                <div class="periodo">Período: 2005 - 2010</div>
+                <ul>
+                    <li>Patrulhamento noturno em áreas de alto risco de atividade Decepticon.</li>
+                    <li>Neutralização de 23 ameaças de nível médio sem danos colaterais à população civil.</li>
+                    <li>Especialista em extração de aliados em território inimigo.</li>
+                    <li>Medalha de Honra Autobot por bravura durante a "Crise da Energon" em 2008.</li>
+                    <li>Desenvolveu técnica de combate "Transform-and-Strike" usada por outros Autobots.</li>
+                </ul>
+            </div>
+
+            <div class="experiencia-item">
+                <h3>Especialista em Infiltração - Divisão de Inteligência</h3>
+                <div class="compania">Comando Central Autobot</div>
+                <div class="periodo">Período: 2000 - 2005</div>
+                <ul>
+                    <li>Infiltração em bases Decepticons disfarçado como veículo civil comum.</li>
+                    <li>Coleta de dados sobre planos de dominação global dos Decepticons.</li>
+                    <li>Criação de rotas de fuga seguras para Autobots em missões perigosas.</li>
+                    <li>Capturou informações cruciais sobre o "Projeto Nova Decepticon" em 2003.</li>
+                    <li>Habilidade avançada em quebra de códigos e criptografia inimiga.</li>
+                </ul>
+            </div>
+
+            <h2 class="titulo">Condecorações e Feitos</h2>
+            <div class="experiencia-item">
+                <ul>
+                    <li> Medalha de Valor Autobot (2018, 2020, 2023)</li>
+                    <li> Recorde de transformação mais rápida entre Peugeots Autobots</li>
+                    <li> Membro Honorário da Resistência Humana</li>
+                    <li>Criador da Rede Lionet de comunicação secreta</li>
+                    <li> Primeiro Autobot Peugeot 206 a atingir o posto de Comandante</li>
+                    <li>347 missões de combate concluídas com sucesso</li>
+                    <li> Treinou 15 novos Autobots recrutas</li>
+                </ul>
+            </div>
+
+            <h2 class="titulo">Treinamento Especial</h2>
+            <div class="experiencia-item">
+                <ul>
+                    <li>Academia de Combate Autobot - Turma de Elite (2000-2004)</li>
+                    <li>Curso Avançado de Transformação Rápida (2005)</li>
+                    <li>Especialização em Defesa Civil e Proteção Humana (2010)</li>
+                    <li>Programa de Atualização de Software - Versão 4.0 (2018)</li>
+                    <li>Curso de Comunicação Intergaláctica (2022)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="rodape">
+        <p>"Mais que um carro, um guerreiro da liberdade!"</p>
+        <p>Disponível para novas missões e alianças</p>
+        <p>Sinal Energon: 100% • Pronto para ação!</p>
+    </div>
 </body>
 </html>
