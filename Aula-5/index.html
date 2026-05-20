@@ -1,49 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aula 5</title>
+    <style>
+    .paginacao {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 20px;
+        font-family: Arial, sans-serif;
+    }
+        .paginacao button {
+        background: white;
+        border: 1px solid #dfe1e5;
+        color: #1a0dab;
+        padding: 8px 12px;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: 0.2s;
+    }
 
-    <link rel="stylesheet" href="style.css">
+    .paginacao button:hover {
+        background-color: #f8f9fa;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    }
+
+    .paginacao button.ativo {
+        color: black;
+        border: none;
+        font-weight: bold;
+        cursor: default;
+    }
+</style>
 
 </head>
-
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, velit. Sunt nobis nostrum consequuntur! Illo modi,
-        nobis animi reiciendis totam quibusdam aliquam voluptatem. Nesciunt.</p>
+    <h1>Aula 5</h1>
+    <p>Atividade da aula 5</p>
 
-    <div class="destaque">
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, recusandae.</p>
-
+    <div class="paginacao">
+        <button><a href="./Ex1.html">Exercício 1</a></button>
+        <button><a href="./Ex2.html">Exercício 2</a></button>
+        <button><a href="../index.html">Voltar para o index</a></button>
     </div>
-
-    <h1>Fonte massa que eu achei</h1>
-
-    <ul class="menu">
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-    </ul>
-
-    <section>
-        <h2>Lorem ipsum dolor sit amet, consectetur adipisici</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, repellat facilis doloremque tenetur laboriosam explicabo ullam aut ipsa sit et cupiditate inventore a, natus porro, obcaecati at laudantium consequatur in!</p>
-    </section>
-
-
-    <ul class="menu2">
-        <li>item 1</li>
-        <li>item 2</li>
-        <li>item 3</li>
-        <li>item 4</li>
-        <li>item 5</li>
-    </ul>
-
-    
-    
 </body>
-
 </html>
