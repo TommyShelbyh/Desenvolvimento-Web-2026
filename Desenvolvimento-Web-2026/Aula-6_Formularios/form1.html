@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/froala-editor@latest/js/froala_editor.pkgd.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/froala-editor@latest/css/froala_editor.pkgd.min.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="processa.php">
+        <div class="grupo">
+            <label for="campo_nome">Nome:</label>
+            <input required id="campo_nome" type="text" name="campo_nome" placeholder="informe o texto">
+
+        </div>
+
+        <div class="grupo">
+            <label for="campo_turno_manha">
+                <input checked type="radio" id="campo_turno_manha" name="campo_turno" value="manha">
+                Manha
+            </label>
+            <label for="campo_turno_tarde">
+                <input type="radio" id="campo_turno_tarde" name="campo_turno" value="tarde">
+                Tarde
+            </label>
+            <label for="campo_turno_noite">
+                <input type="radio" id="campo_turno_noite" name="campo_turno" value="noite">
+                Noite
+            </label>
+
+        </div>
+
+        <div class="grupo">
+            <label for="refeicao_arroz">
+                <input checked type="checkbox" id="refeicao_arroz" name="campo_refeicao" value="arroz">
+                Arroz
+            </label>
+            <label for="refeicao_feijao">
+                <input type="checkbox" id="refeicao_feijao" name="campo_refeicao" value="feijao">
+                Feijao
+            </label>
+            <label for="refeicao_farinha">
+                <input type="checkbox" id="refeicao_farinha" name="campo_refeicao" value="farinha">
+                Farinha
+            </label>
+
+        </div>
+        <div class="grupo">
+            <label for="campo_cor_favorita">Cor Favorita</label>
+            <select name="campo_cor_favorita" id="campo_cor_favorita">
+
+                <option value="vermelho">Vermelho</option>
+                <option value="verde">Verde</option>
+                <option value="azul">Azul</option>
+                <option value="outra">Outra</option>
+
+            </select>
+
+
+
+        </div>
+
+        <div class="grupo">
+            <textarea rows="4" cols="50"></textarea>
+            <input type="submit">
+            <script>
+                new FroalaEditor('textarea');
+            </script>
+
+        </div>
+
+<!--
+        <input type="date">
+        <br><br>
+        <input type="color">
+
+        
+-->
+
+    </form>
+
+
+
+
+
+</body>
+
+</html>
