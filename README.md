@@ -1,14 +1,14 @@
 # 🚀 Desenvolvimento Web 2026
 
 ![Status](https://img.shields.io/badge/status-em%20andamento-brightgreen)
-![HTML](https://img.shields.io/badge/HTML-97.2%25-orange)
-![CSS](https://img.shields.io/badge/CSS-2.7%25-blue)
-![PHP](https://img.shields.io/badge/PHP-0.1%25-purple)
+![HTML](https://img.shields.io/badge/HTML25-orange)
+![CSS](https://img.shields.io/badge/CSS25-blue)
+![PHP](https://img.shields.io/badge/PHP25-purple)
 ![Ano](https://img.shields.io/badge/ano-2026-ff69b4)
 
 > Repositório oficial das aulas de **Desenvolvimento Web** do ano letivo de 2026  
 > 👨‍🏫 **Professor:** Jefferson Chaves  
-> 👨‍🎓 **Aluno:** Adriel Pozzo (lolsupremo)
+> 👨‍🎓 **Aluno:** Adriel Luiz Pozzo 
 
 ---
 
