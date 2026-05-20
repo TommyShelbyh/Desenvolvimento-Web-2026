@@ -1,9 +1,9 @@
 # 🚀 Desenvolvimento Web 2026
 
 ![Status](https://img.shields.io/badge/status-em%20andamento-brightgreen)
-![HTML](https://img.shields.io/badge/HTML25-orange)
-![CSS](https://img.shields.io/badge/CSS25-blue)
-![PHP](https://img.shields.io/badge/PHP25-purple)
+![HTML](https://img.shields.io/badge/HTML-orange)
+![CSS](https://img.shields.io/badge/CSS-blue)
+![PHP](https://img.shields.io/badge/PHP-purple)
 ![Ano](https://img.shields.io/badge/ano-2026-ff69b4)
 
 > Repositório oficial das aulas de **Desenvolvimento Web** do ano letivo de 2026  
