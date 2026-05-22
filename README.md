@@ -37,6 +37,7 @@ Este repositório contém todas as atividades, projetos e exercícios desenvolvi
 | **Aula 4** | 📐 Layouts | Posicionamento e floats | [Ver atividade](./Aula-4/) |
 | **Aula 5** | 🔧 Flexbox & Grid | Layouts modernos responsivos | [Ver atividade](./Aula-5/) |
 | **Aula 6** | 📋 Formulários | Criação de formulários completos | [Ver atividade](./Aula-6_Formularios/) |
+| **Aula 7** | 🌀 Gravidade | Orientação de caixas | [Ver atividade](./Aula-7/) |
 | **Atividade 1** | 👤 Portfólio | Portfólio para o autobot Lionis Prime | [Ver portfólio](./Curriculo-enferrujavel/) |
 | **Atividade 2** | 😏 Safadometro | Sistema para descobrir o quanto você é safado | [Ver atividade](./Safadometro/) |
 ---
