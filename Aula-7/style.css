@@ -5,10 +5,18 @@
     box-sizing: border-box;
 
 }
+.menu-wrapper{
+
+    width: 100%;
+    background-color: firebrick;
+
+}
 .page {
     height: 1200px;
     width: 1200px;
     margin: 0 auto;
+
+    overflow: auto;
 }
 .menu {
     height: 100px;
@@ -19,14 +27,14 @@
 .sidebar {
     height: calc(100vh - 100px - 200px);
     background-color: red;
-    width: 300px;
+    width: 25%;
 
     float: left;
 }
 .content {
     min-height: calc(100vh - 100px - 200px);
     background-color: yellow;
-    width: 900px;
+    width: 75%;
     float: right;
     padding: 25px;
     line-height: 30px;
